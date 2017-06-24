@@ -1,0 +1,64 @@
+body{
+    /*background: #f06226;*/
+    color: white;
+    font-family: "Arial",sans-serif;
+    font-size: 14px;
+
+}
+.container{
+    width: 60%;
+    background-color: #199fdb;
+    margin: 20px auto;
+    overflow: auto;
+    padding: 25px;
+    -webkit-box-shadow: -2px -1px 13px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 13px -1px rgba(0,0,0,0.75);
+    box-shadow: -2px -1px 13px -1px rgba(0,0,0,0.75);
+}
+header{
+    text-align: center;
+    border-bottom: #fff dashed 1px;
+}
+header h1{
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 0px 0px 5px rgba(150, 150, 150, 0.94);
+    text-decoration-line: underline;
+
+
+}
+header p{
+    padding: 0px;
+    margin-top: 5px;
+    color:#000;
+
+
+}
+section{
+    min-height: 400px;
+
+}
+footer{
+    text-align: center;
+}
+input[type="submit"]{
+    background: #f06226;
+    border: none;
+    color: #ffffff;
+    -webkit-box-shadow: -2px -1px 13px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 13px -1px rgba(0,0,0,0.75);
+    box-shadow: -2px -1px 13px -1px rgba(0,0,0,0.75);
+padding: 10px 15px;
+    border-radius: 25px;
+    font-size:12px;
+    cursor: pointer;
+}
+#results h3{
+    background: #f06226;
+    padding: 10px;
+    margin: 10px 0px;
+}
+#results span{
+    color: black;
+    font-weight: bold;
+}
